@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: $colour-primary;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 34px;
+  margin: 40px;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: $colour-background;
+  font-size: 12px;
+  height: 44px;
+  padding: 16px 69px 16px 75px;
+  color: $border-colour;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}

@@ -1,0 +1,28 @@
+.product {
+  margin: 15px;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  color: $colour-secondary;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 264px;
+  height: 263px;
+  border: 3px solid;
+
+  &--spesial {
+    @extend .product;
+    background: $white;
+    color: $colour-primary;
+    border-color: #c32c72;
+  }
+
+  &--spesial--two {
+    @extend .product;
+    background: $colour-special;
+    color: $colour-special;
+  }
+}
+
+/* border-colour #c32c72   inner #FFF
+border-coler #FFF   inner  #c32c72 */
