@@ -1,0 +1,10 @@
+.home-block {
+  margin: 15px;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  background-color: var(--background-colour);
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 263px;
+}
